@@ -8,14 +8,14 @@ export default function Socialmedia() {
         {/* Facebook */}
         <Button w={'full'} colorScheme={'facebook'}>
           <Center>
-            <a href='https://www.facebook.com/greystarktony/'><Text>Check out my Facebook</Text></a>
+            <a href='https://www.facebook.com/greystarktony/'><Text className='s-text'>Check out my Facebook</Text></a>
           </Center>
         </Button>
 
         {/* LinkedIn */}
         <Button w={'full'} colorScheme={'messenger'}  >
           <Center >
-            <a href='https://www.linkedin.com/in/giri-reddy-geralt/'><Text>Get in touch LinkedIn</Text></a>
+            <a href='https://www.linkedin.com/in/giri-reddy-geralt/'><Text className='s-text'>Get in touch LinkedIn</Text></a>
           </Center>
         </Button>
         <Text >No You have to Click on the text not the buttons</Text>

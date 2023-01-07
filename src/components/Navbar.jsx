@@ -3,7 +3,7 @@ import {NavLink,} from "react-router-dom"
 import  "../css/navbar.css"
 import { Button } from '@chakra-ui/react'
 import rglogo from "../assets/rglogo.jpg"
-import resume from "../assets/R_GIRI_REDDY_RESUME.pdf"
+import resume from "../assets/R_Giri_Reddy_Resume.pdf"
 const Navbar = () => {
 
   return (
@@ -22,9 +22,7 @@ const Navbar = () => {
      <li>About me</li>
      <li>Skills</li> 
      <li>Projects</li>
-      <li><a href={resume} style={{textDecoration:"none"}} target="_blank">Resume</a></li>
-      <li><a href={resume} target="_blank" download > 
-     <button  className='n-btn'>Download</button></a></li>
+      <li href={resume} target="blank"><a target="_blank" href={resume} download >Resume</a></li>
      </ul>
     </div>
     

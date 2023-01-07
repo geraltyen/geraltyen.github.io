@@ -4,3 +4,26 @@
     height: 500px;
     padding: 3rem;
 }
+
+.h-projects{
+    padding: 0 3rem 0 3rem;
+    margin: auto;
+    margin-top: 3rem;
+}
+.p-text{
+    font-size: 40px;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+}
+.view-section{
+    display: flex;
+}
+.l-view img{
+    width: 1000px;
+    height: auto;
+
+}
+.r-view{
+    margin-left: 20px;
+}

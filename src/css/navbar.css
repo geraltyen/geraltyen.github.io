@@ -1,8 +1,12 @@
 .navwrapper{
+    position:sticky;
+    top:0;
     height: 10vh;
     display: flex;
     justify-content: space-between;
-
+    padding: 10px 2rem;
+   background-color: white;
+   z-index: 9999;
 }
 
 .n-left{
@@ -39,15 +43,14 @@
 
 .n-list>ul>li:hover{
     cursor: pointer;
-    color: var(--orange);
+    color: #eec2c4;
     margin-top: 1rem;
 }
 .n-btn:hover{
     border: 0;
     background-color: white;
-    color: var(--orange);
-    font-size: 18px;
+    font-size: 15px;
     width: auto;
-    padding: 5px;
-    border-radius: 34px;
+    padding: 10px;
+   width: auto;
 }
