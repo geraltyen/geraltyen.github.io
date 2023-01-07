@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.d553fd21.css",
-    "main.js": "/static/js/main.e1124548.js",
+    "main.css": "/static/css/main.37d70801.css",
+    "main.js": "/static/js/main.2b4969ad.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/R_GIRI_REDDY_RESUME.pdf": "/static/media/R_GIRI_REDDY_RESUME.eb941ec1b7e65cb57620.pdf",
+    "static/media/cyber.png": "/static/media/cyber.a764c6d6bc44713dfa15.png",
+    "static/media/purpleblur.png": "/static/media/purpleblur.c3871827c6c2ca854399.png",
+    "static/media/giri.png": "/static/media/giri.a30c1f44630dfcff45b3.png",
+    "static/media/R_Giri_Reddy_Resume.pdf": "/static/media/R_Giri_Reddy_Resume.1593b1c5cff9dcd430d9.pdf",
     "static/media/Gumela Regular.otf": "/static/media/Gumela Regular.0ae83c6988a536716eb4.otf",
     "static/media/rglogo.jpg": "/static/media/rglogo.47aea8c9efae20e83b7f.jpg",
     "index.html": "/index.html",
-    "main.d553fd21.css.map": "/static/css/main.d553fd21.css.map",
-    "main.e1124548.js.map": "/static/js/main.e1124548.js.map",
+    "main.37d70801.css.map": "/static/css/main.37d70801.css.map",
+    "main.2b4969ad.js.map": "/static/js/main.2b4969ad.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d553fd21.css",
-    "static/js/main.e1124548.js"
+    "static/css/main.37d70801.css",
+    "static/js/main.2b4969ad.js"
   ]
 }
