@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4275bb55.css",
-    "main.js": "/static/js/main.7474b05d.js",
+    "main.css": "/static/css/main.36437893.css",
+    "main.js": "/static/js/main.d4c2b7ad.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/cyber.png": "/static/media/cyber.a764c6d6bc44713dfa15.png",
     "static/media/pr3.png": "/static/media/pr3.d8674200c9a5187d9e1a.png",
@@ -10,6 +10,7 @@
     "static/media/giri.png": "/static/media/giri.a30c1f44630dfcff45b3.png",
     "static/media/pr1.png": "/static/media/pr1.9986a00a41f14e97a16a.png",
     "static/media/R_Giri_Reddy_Resume.pdf": "/static/media/R_Giri_Reddy_Resume.1593b1c5cff9dcd430d9.pdf",
+    "static/media/jest.jpg": "/static/media/jest.a80f242de1dc527ecb61.jpg",
     "static/media/pr4.png": "/static/media/pr4.ca84a99d2af0eed8273d.png",
     "static/media/reactimg.png": "/static/media/reactimg.aa2d1b58de9a7180f161.png",
     "static/media/Gumela Regular.otf": "/static/media/Gumela Regular.0ae83c6988a536716eb4.otf",
@@ -20,13 +21,14 @@
     "static/media/cssimg.png": "/static/media/cssimg.495a79bfbc4ced7c7c0e.png",
     "static/media/wave.png": "/static/media/wave.fdfef4069ad90f610990.png",
     "static/media/jsimg.png": "/static/media/jsimg.60dbbe1569571db1eda7.png",
+    "static/media/typescript.png": "/static/media/typescript.af108db04a54d784da9b.png",
     "index.html": "/index.html",
-    "main.4275bb55.css.map": "/static/css/main.4275bb55.css.map",
-    "main.7474b05d.js.map": "/static/js/main.7474b05d.js.map",
+    "main.36437893.css.map": "/static/css/main.36437893.css.map",
+    "main.d4c2b7ad.js.map": "/static/js/main.d4c2b7ad.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4275bb55.css",
-    "static/js/main.7474b05d.js"
+    "static/css/main.36437893.css",
+    "static/js/main.d4c2b7ad.js"
   ]
 }
