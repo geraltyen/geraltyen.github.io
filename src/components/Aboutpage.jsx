@@ -6,26 +6,25 @@ import git from "../Images/github.png"
 import linkedin from "../Images/linkedin.png"
 import purple from "../Images/purpleblur.png"
 import giri from "../Images/giri.png"
-const Aboutpage = () => {
+const Aboutpage = ({about}) => {
   return (
-    <div className='a-wrapper'>
+    <div className='a-wrapper' ref={about}>
     
 <div className="a-left">
     <div className='a-name'>
         <span>Hii! I Am,</span> <span>R Giri Reddy</span>  
         <span>Full Stack Web Developer,Capable of Producing Quality Web Work </span>
-    </div>
+    </div> 
     <div className='a-img'>
-    <img src={insta} alt="img" />
-    <img src={facebook} alt="img" />
-    <img src={linkedin} alt="img" />
-    <img src={git} alt="" />
+    <a target="_blank" href="https://instagram.com/rick_yenn"><img src={insta} alt="img" /></a> 
+    <a target="_blank" href="https://fb.com/greystarktony"><img src={facebook} alt="img" /></a> 
+    <a target="_blank" href="https://linkedin.com/in/giri-reddy-geralt"><img src={linkedin} alt="img" /></a> 
+    <a target="_blank" href="https://github.com/geraltyen"><img src={git} alt="" /></a> 
     </div>
 
-</div>
+    </div>
     <div className="a-right">
       
-      <img src={purple} alt="" />
       <img src={giri} alt="" />
     </div>
     

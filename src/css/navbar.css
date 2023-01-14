@@ -1,56 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+
 .navwrapper{
     position:sticky;
+    width: 100%;
     top:0;
     height: 10vh;
     display: flex;
     justify-content: space-between;
     padding: 10px 2rem;
-   background-color: white;
-   z-index: 9999;
+    z-index: 9999;
+   background: #2980b9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+box-shadow: rgba(55, 17, 207, 0.436) 0px 2px 1px, rgba(27, 14, 144, 0.52) 0px 4px 2px, rgba(42, 24, 208, 0.446) 0px 8px 4px, rgba(17, 166, 208, 0.542) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
-
+.hamburger{
+    display: none;
+}
 .n-left{
-    flex: 1;
+    width: 25%;
     display: flex;
     align-items: center;
     gap: 2rem;
 
 }
+
+
 .n-name{
-    font-size: 1.2rem;
+    font-size: 25px;
     font-weight: bold;
+    color: #eec2c4;
 }
 
 .n-right{
+    width: 75%;
     display: flex;
-    flex: 1;
     align-items: center;
     justify-content: center;
     font-weight: 400;
-
+    margin-top: 1%;
 }
 
-.n-list{
-    flex: 10;
-
-}
 .n-list>ul{
+    float: right;
     display: flex;
+    color: white;
     gap: 2rem;
     margin-right: 4rem;
     list-style-type:none;
 }
+.n-list ul li{
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 17px;
+}
 
+
+.n-list a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+.n-list a:hover{
+    color: #eec2c4;
+    cursor: pointer;
+}
 .n-list>ul>li:hover{
     cursor: pointer;
     color: #eec2c4;
     margin-top: 1rem;
-}
-.n-btn:hover{
-    border: 0;
-    background-color: white;
-    font-size: 15px;
-    width: auto;
-    padding: 10px;
-   width: auto;
 }

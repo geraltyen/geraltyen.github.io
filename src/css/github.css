@@ -1,0 +1,15 @@
+.g-main{
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: column;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+}
+.g-cal{
+    width: 90%;
+}
+.g-main img{
+    width: 50%;
+
+}
