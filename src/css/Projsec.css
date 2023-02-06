@@ -1,11 +1,14 @@
 .newpr-main{
+    width: 80%;
+    
+    margin: 5% auto 10% auto;
+    
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 1%;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5%;
 }
 .newpr-child{
     border: 1px solid black;
-    
     border-radius: 100px 10px;
     color: black;
     padding: 1rem;
@@ -65,17 +68,26 @@
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
+    .newpr-child{
+        border-radius: 15px;
+    }
+    .newpr-child img{
+       margin-bottom: 1rem;
+        border-radius: 10px;
+    } 
     .des-p{
-        font-size: 10px;
+        
+        font-size: 8px;
     }
     .des-h1{
-        font-size: 15px;
+       
+        font-size: 10px;
     }
     .des-title{
-        font-size: 15px;
+        font-size: 10px;
     }
     .btn-des{
-        font-size: 10px;
+        font-size: 8px;
     }
 }
 

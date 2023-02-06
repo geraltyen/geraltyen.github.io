@@ -51,27 +51,27 @@ export const ContactUs = ({ footer }) => {
         <div className="f-right">
         
           <div>
-          <a href="" className='f-rightchild'>
+          <a className='f-rightchild'>
           <div><img src={phn2} alt="" /></div>
           <div><span>6370060300</span></div>
           </a>
           </div>
           <div>
-          <a href="" className='f-rightchild'>
+          <a href="https://linkedin.com/in/giri-reddy-geralt" target="_blank" className='f-rightchild'>
           <div><img src={link2} alt="" /></div>
           <div><span>Linked In</span></div>
           </a>
           </div>
          
           <div>
-          <a href="" className='f-rightchild'>
+          <a href="#" className='f-rightchild'>
           <div><img src={gmail} alt="" /></div>
           <div><span>girireddyanna@gmail.com</span></div>
           </a>
           </div>
         
           <div>
-          <a href="" className='f-rightchild'>
+          <a href="https://github.com/geraltyen" target="_blank" className='f-rightchild'>
           <div><img src={git2} alt="" /></div>
           <div><span>Github</span></div>
           </a>

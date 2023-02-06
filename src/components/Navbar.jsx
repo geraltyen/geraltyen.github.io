@@ -29,7 +29,7 @@ const Navbar = ({scrolltosection,home, about, skills, projects, footer,gitStats}
      <li onClick={()=>scrolltosection(skills)}>Skills</li> 
      <li onClick={()=>scrolltosection(projects)}>Projects</li>
      <li onClick={()=>scrolltosection(gitStats)}>GitHub Stats</li>
-    <li><a target="_blank" href={resume}  download >Resume</a></li>
+    <li><a target="_blank" href={resume} onClick={()=>{window.open("")}}  download >Resume</a></li>
      
      </ul>
     </div> 

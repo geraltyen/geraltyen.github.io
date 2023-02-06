@@ -8,14 +8,16 @@ import htmlimg from "../Images/htmlimg.png"
 import cssimg from "../Images/cssimg.png"
 import reactimg from "../Images/reactimg.png"
 import reduximg from "../Images/reduximg.png"
+import next from "../Images/next.png"
 import jsimg from "../Images/jsimg.png"
 import pr1 from "../Images/pr1.png"
 import pr2 from "../Images/pr2.png"
 import pr3 from "../Images/pr3.png"
 import pr4 from "../Images/pr4.png"
+import pr5 from "../Images/nykaa.png"
 import Slider from 'react-slick'
 const primg1=[htmlimg,cssimg,jsimg]
-const primg2=[]
+const primg2=[reactimg,reduximg,next]
 const primg3=[]
 const primg4=[]
 
@@ -30,13 +32,13 @@ const Homepage = ({home,projects}) => {
     slidesToScroll: 1,
   };
 
-  const [img, setImg] = useState( pr1 )
-  const [live, setLive] = useState("https://teal-hotteok-90ff2a.netlify.app/")
-  const [code, setCode] = useState("")
-  const [txt, setTxt] = useState("This Website is a time management Website. Contains apps to track Your progress through out the day I have used HTML,JAVASCRIPT,CSS to build the front-end of this Web page")
-  const [type,setType]=useState("Individual")
-  const [tech, setTech] = useState(primg1)
-  const [pname,setPname]=useState("T-Metric Clone")
+  const [img, setImg] = useState( pr5 )
+  const [live, setLive] = useState("https://secretive-form-5947-umber.vercel.app/")
+  const [code, setCode] = useState("https://github.com/geraltyen/Nykaa.com-clone")
+  const [txt, setTxt] = useState("Nyka is Buy cosmetics & beauty products online from Nykaa, the online shopping beauty store. Browse makeup, health products & more from top beauty brands.")
+  const [type,setType]=useState("Collaborative")
+  const [tech, setTech] = useState(primg2)
+  const [pname,setPname]=useState("Nykaa Clone")
   
   const first=()=>{
     setImg(pr1)
@@ -66,13 +68,13 @@ const third=()=>{
   setTech(primg1)
 }
 const fourth=()=>{
-  setImg(pr4)
-  setTxt("Simple job App That stores Data And Displays It in The browser. It also contains Bookmark and sort filter functionality too.")
-  setLive("https://stellular-crepe-9f0df2.netlify.app/index.html")
-  setCode("https://github.com/geraltyen/Simple-Api-Products-App")
-  setType("Individual")
-  setPname("Job Seeking App")
-  setTech(primg1)
+  setImg(pr5)
+  setTxt("Nyka is Buy cosmetics & beauty products online from Nykaa, the online shopping beauty store. Browse makeup, health products & more from top beauty brands.")
+  setLive("https://secretive-form-5947-umber.vercel.app/")
+  setCode("https://github.com/geraltyen/Nykaa.com-clone")
+  setType("Collaborative")
+  setPname("Nykaa Clone")
+  setTech(primg2)
 }
   return (
     < >
@@ -131,7 +133,7 @@ const fourth=()=>{
         <img src={pr3} alt="i" onClick={()=>{third()}}/>
         </div>
         <div>
-        <img src={pr4} alt="i" onClick={()=>{fourth()}}/>
+        <img src={pr5} alt="i" onClick={()=>{fourth()}}/>
         </div>
         
       </div>

@@ -28,17 +28,20 @@ const Skills = ({skills}) => {
       <img src={reduximg} alt="img" className='s-img' />
       <img src={jsimg} alt="img" className='s-img' />
       <img src={chakra} alt="img" className='s-img' />
-      <img src={git} alt="img" className='s-img' />
-      <img src={npm} alt="img" className='s-img' />
-      <img src={net} alt="img" className='s-img' />
-      <img src={node} alt="img" className='s-img' />
+     
       <img src={mongo} alt="img" className='s-img' />
-      <img src={vercel} alt="img" className='s-img' />
       <img src={jest} alt="img" className='s-img' />
       <img src={ts} alt="img" className='s-img' />
      </div>
      <div className="tools">
-      
+      <h1 className='s-head'>Tools</h1>
+      <div className="s-main">
+      <img src={git} alt="img" className='s-img' />
+      <img src={vercel} alt="img" className='s-img' />
+      <img src={node} alt="img" className='s-img' />
+      <img src={npm} alt="img" className='s-img' />
+      <img src={net} alt="img" className='s-img' />
+      </div>
      </div>
   </div>
   )

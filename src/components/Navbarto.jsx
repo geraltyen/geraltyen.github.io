@@ -61,8 +61,24 @@ export default function Navbarto({scrolltosection,home, about, skills, projects,
                <li  className='n-lis' onClick={()=>scrolltosection(projects)}>Projects</li>
               <li  className='n-lis' onClick={()=>scrolltosection(gitStats)}>GitHub</li>
               <li  className='n-lis' onClick={()=>scrolltosection(footer)}>Contact</li>
-              <li className='n-lis' ><a className='n-lis' target="_blank" href="https://drive.google.com/file/d/18Lv83gxFAq4d4EWxGFproS_ju1DTpYey/view?usp=share_link" >Resume</a></li>
-              <li className='n-lis' ><a className='n-lis' target="_blank" href={resume}  download >Download CV</a></li>
+              <li className='n-lis' >
+                <Button
+                                    onClick={()=>window.open("https://drive.google.com/file/d/18Lv83gxFAq4d4EWxGFproS_ju1DTpYey/view")}
+                                    variant={'link'}
+                                    cursor={'pointer'}
+                                    minW={0}
+                                    _hover={{ bg:"red.400" }}
+                                    bg="red.400 "
+                                    color='white'
+                                    textDecoration='none'
+                                    padding='2 5'
+                                    display={{ base: 'none', md: 'flex' }}
+                                    target={"_blank"}
+                                    rel="noreferrer"  
+                                >
+                                          <a href={resume} download={"R_Giri_Reddy_Resume.pdf"}>RESUME</a>    
+                                    </Button>
+              </li>
             </HStack>
           </HStack>
           <Flex alignItems={'center'}>
@@ -93,8 +109,24 @@ export default function Navbarto({scrolltosection,home, about, skills, projects,
                 <li className='n-lis' onClick={()=>scrolltosection(projects)}>Projects</li>
               <li className='n-lis' onClick={()=>scrolltosection(gitStats)}>GitHub Stats</li>
               <li className='n-lis' onClick={()=>scrolltosection(footer)}>Contact me</li>
-              <li className='n-lis'><a target="_blank" href={resume}  download >Resume</a></li>
-              <li className='n-lis' ><a className='n-lis' target="_blank" href={resume}  download >Download CV</a></li>
+              <li className='n-lis' >
+                <Button
+                                    onClick={()=>window.open("https://drive.google.com/file/d/18Lv83gxFAq4d4EWxGFproS_ju1DTpYey/view")}
+                                    variant={'link'}
+                                    cursor={'pointer'}
+                                    minW={0}
+                                    _hover={{ bg:"red.400" }}
+                                    bg="red.400 "
+                                    color='white'
+                                    textDecoration='none'
+                                    padding='2 5'
+                                    display={{ md: 'flex' }}
+                                    target={"_blank"}
+                                    rel="noreferrer"  
+                                >
+                                          <a href={resume} download={"R_Giri_Reddy_Resume.pdf"}>RESUME</a>    
+                                    </Button>
+              </li>
             </Stack>
           </Box>
         ) : null}
