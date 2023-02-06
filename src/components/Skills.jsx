@@ -37,6 +37,9 @@ const Skills = ({skills}) => {
       <img src={jest} alt="img" className='s-img' />
       <img src={ts} alt="img" className='s-img' />
      </div>
+     <div className="tools">
+      
+     </div>
   </div>
   )
 }

@@ -33,7 +33,9 @@
 }
 .r-view{
    font-size: 35px;
-   width: 40%;
+   width: 45%;
+   margin-left: 5%;
+
 }
 
 .stacks{
@@ -79,6 +81,20 @@
 .p-btn{
   margin: 30px 30px;
   color: black;
+  background: #6190E8;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A7BFE8, #6190E8);
+
+    padding: 15px;
+    border-radius:30px;
+}
+.p-btn:hover{
+    background: #F7971E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFD200, #F7971E);
+transition: all ease-in  100ms;
+box-shadow:0px 20px 24px 3px #6190E8 ;
+
 }
 .r-stack{
     margin-top: 2rem;
@@ -107,3 +123,51 @@
     font-weight: bold;
     
 }
+.pr-btns-div{
+    width: 100%;
+}
+
+@media screen and (min-width: 320px)and (max-width:768px){
+    .pr-btns-div{
+        display: flex;
+        gap: 1%;
+        width:90%;
+    }
+    .p-btn{
+        width: auto;
+        padding: 10px;
+        margin: 2rem 0;
+    }
+    .l-view{
+        width: 80%;
+    }
+    .r-view{
+        width: 80%;
+    }
+    .p-type{
+        color: orange;
+        font-size: 20px;
+    
+    }
+    .p-head{
+        margin-top: 3%;
+    }
+}
+
+@media screen and (min-width:769px)and  (max-width:1200px){
+    .l-view{
+        width: 90%;
+    }
+    .r-view{
+        width: 90%;
+    }
+    .p-type{
+        color: orange;
+        font-size: 20px;
+    
+    }
+    .p-head{
+        margin-top: 3%;
+    }
+}
+

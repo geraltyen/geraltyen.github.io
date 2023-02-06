@@ -11,7 +11,7 @@ import { useState } from 'react'
 const Navbar = ({scrolltosection,home, about, skills, projects, footer,gitStats}) => {
 
   const [show,setShow]=useState(false)
- 
+  
   return (
     <div className='navwrapper'>
 

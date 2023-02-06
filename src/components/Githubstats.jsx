@@ -12,11 +12,11 @@ const Githubstats = ({gitStats}) => {
     <h1 className='g-text'>Github Streaks `N` Stats</h1>
         <div className='g-cal'>
         <GitHubCalendar
-        
-        style={{margin:"0 auto 2%"}}
         username="geraltyen"
-        blockSize={20}
-        fontSize={20}
+        fontSize={10}
+        blockSize={10} 
+        
+        className="g-calsub"
          >
         <ReactTooltip delayShow={20}/>
         </GitHubCalendar>

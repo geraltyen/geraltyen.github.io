@@ -13,7 +13,7 @@ const Aboutpage = ({about}) => {
 <div className="a-left">
     <div className='a-name'>
         <span>Hii! I Am,</span> <span>R Giri Reddy</span>  
-        <span>Full Stack Web Developer,Capable of Producing Quality Web Work </span>
+        <span>Full Stack Web Developer,Capable of Producing Quality Web Work trained by Masai School, Bengaluru.Passionate in creating projects and systems which can result in both me and my organizations success.</span>
     </div> 
     <div className='a-img'>
     <a target="_blank" href="https://instagram.com/rick_yenn"><img src={insta} alt="img" /></a> 

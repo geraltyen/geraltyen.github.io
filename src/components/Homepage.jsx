@@ -37,6 +37,7 @@ const Homepage = ({home,projects}) => {
   const [type,setType]=useState("Individual")
   const [tech, setTech] = useState(primg1)
   const [pname,setPname]=useState("T-Metric Clone")
+  
   const first=()=>{
     setImg(pr1)
     setTxt("This Website is a time management Website. Contains apps to track Your progress through out the day I have used HTML,JAVASCRIPT,CSS to build the front-end of this Web page")
@@ -108,9 +109,9 @@ const fourth=()=>{
             </div>
             </div>
 
-            <div style={{margin:"20px"}} className="pr-btns-div">
-            <a href={code} target="_blank"><button className='button'>Source Code</button></a>
-            <a href={live} target="_blank"><button className='button'>Live</button></a>
+            <div className="pr-btns-div">
+            <a href={code} target="_blank"><button className='p-btn'>Source</button></a>
+            <a href={live} target="_blank"><button className='p-btn'>Live</button></a>
             </div>
           </div>
 

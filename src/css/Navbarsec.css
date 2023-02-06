@@ -1,0 +1,15 @@
+.secnav{
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background-color: var(--black);
+}
+.n-lis:hover{
+    cursor: pointer;
+    color: coral;
+}
+@media screen and (min-width:768px)and  (max-width:1200px){
+    .n-lis{
+        font-size:15px;
+    }
+}

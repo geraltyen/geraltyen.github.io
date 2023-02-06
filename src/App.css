@@ -222,6 +222,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
   }
   .l-view img{
     width: 80%;
@@ -231,7 +232,6 @@
     width: 100%;
     
   }
-  
   .r-view{
     font-size: 20px;
     width: 100%;
