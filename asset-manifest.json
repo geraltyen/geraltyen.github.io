@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.94e0d579.css",
-    "main.js": "/static/js/main.2cc31e41.js",
+    "main.css": "/static/css/main.25fbb7c0.css",
+    "main.js": "/static/js/main.e7e47cb8.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/cyber.png": "/static/media/cyber.a764c6d6bc44713dfa15.png",
     "static/media/pr3.png": "/static/media/pr3.d8674200c9a5187d9e1a.png",
     "static/media/nykaa.png": "/static/media/nykaa.5113566ab298da8af081.png",
     "static/media/pr2.png": "/static/media/pr2.03c23c334221b3eb1b5b.png",
     "static/media/purpleblur.png": "/static/media/purpleblur.c3871827c6c2ca854399.png",
+    "static/media/pr5.png": "/static/media/pr5.0758024059ccfa3b4df4.png",
     "static/media/giri.png": "/static/media/giri.a30c1f44630dfcff45b3.png",
     "static/media/pr1.png": "/static/media/pr1.9986a00a41f14e97a16a.png",
     "static/media/fw20_1309_R_Giri_Reddy_Resume.pdf": "/static/media/fw20_1309_R_Giri_Reddy_Resume.1593b1c5cff9dcd430d9.pdf",
@@ -25,12 +26,12 @@
     "static/media/jsimg.png": "/static/media/jsimg.60dbbe1569571db1eda7.png",
     "static/media/typescript.png": "/static/media/typescript.af108db04a54d784da9b.png",
     "index.html": "/index.html",
-    "main.94e0d579.css.map": "/static/css/main.94e0d579.css.map",
-    "main.2cc31e41.js.map": "/static/js/main.2cc31e41.js.map",
+    "main.25fbb7c0.css.map": "/static/css/main.25fbb7c0.css.map",
+    "main.e7e47cb8.js.map": "/static/js/main.e7e47cb8.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.94e0d579.css",
-    "static/js/main.2cc31e41.js"
+    "static/css/main.25fbb7c0.css",
+    "static/js/main.e7e47cb8.js"
   ]
 }
