@@ -72,7 +72,7 @@ export default function Navbarto({scrolltosection,home, about, skills, projects,
               <li  className='n-lis' onClick={()=>scrolltosection(footer)}>Contact</li>
               <li className='n-lis' >
                 <Button
-                                    onClick={()=>window.open("https://drive.google.com/file/d/18Lv83gxFAq4d4EWxGFproS_ju1DTpYey/view")}
+                                    onClick={()=>window.open("https://drive.google.com/file/d/12AnQGcxLUZooFRD9bJS6Pp_9J0c9Uhjy/view")}
                                     variant={'link'}
                                     cursor={'pointer'}
                                     minW={0}
