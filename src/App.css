@@ -15,11 +15,18 @@
 .App{
    
     color: white; 
-    background: #000046;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background-color:#242D49;
 }
+.hrlin{
+  width: 90%;
+  margin: auto;
+  border:1px solid white;
+}
+.headingspan{
+  color: orange;
+  font-size: 40px;
 
+}
 .button{
   border-radius: 34px;
   height: 50px;
@@ -42,6 +49,14 @@
   .a-wrapper{
       display: inline;
       text-align: center;
+  }
+  .p-text{
+    font-size: 20px;
+  }
+  .headingspan{
+    color: burlywood;
+    font-size: 20px;
+  
   }
   .a-right img{
     margin: auto;

@@ -2,9 +2,8 @@
     margin: 5% auto 0;
    /* background-image: url("../Images/wave.png"); */
    padding: 2% 0 4% 0;
-   
-   border-radius: 50px 50px 0 0;
-    background-color: #eee4e2;
+   border-radius: 50px 50px;
+    background-color:blanchedalmond ;
 }
 .footer{
     display: flex;
@@ -14,8 +13,10 @@
 }
 .f-subh{
     display: flex;
-    color: #6190E8;
+    color: gold;
+    border: 1px solid burlywood;
     justify-content: space-around;
+    background-color: black;
     font-size: 25px;
     margin-bottom: 20px;
 }
@@ -37,7 +38,7 @@
 .f-text{
    border-radius: 5px;
    color: black;
-   border: 0.5px solid blue;
+   border: 0.5px solid rgb(11, 12, 0);
    background-color: white;
 }
 .f-text::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -174,10 +175,10 @@
          border-radius: 15px;
          font-size: 15px;
          border: none;
-
+        
     }
     .f-btn:hover{
-        box-shadow: 0px 20px 24px 3px rgb(6, 205, 240)
+        box-shadow: 0px 20px 24px 3px rgba(21, 187, 216, 0.626)
     }
     .f-rightchild img{
         width: 25px;

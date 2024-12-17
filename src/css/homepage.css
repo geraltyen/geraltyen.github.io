@@ -14,7 +14,7 @@
 .p-text{
     font-size: 40px;
     margin: 5% auto;
-    
+   
     text-align: center;
     font-weight: bold;
 }
@@ -60,13 +60,16 @@
     
 }
 
+
 .p-cards img{
     width: 80%;
     box-shadow: rgba(174, 255, 0, 0.808) 0px 2px 5px -1px, rgb(255, 253, 253) 0px 1px 3px -1px;
     border-radius: 15px;
+    border: 2px solid white;
 }
 .p-cards img:hover{
     box-shadow: rgba(204, 94, 196, 0.793) 0px 5px 15px;
+    width: 90%;
    
 }
 .p-head{
@@ -138,6 +141,7 @@ box-shadow:0px 20px 24px 3px #6190E8 ;
         padding: 10px;
         margin: 2rem 0;
     }
+    
     .l-view{
         width: 100%;
     }
@@ -152,6 +156,7 @@ box-shadow:0px 20px 24px 3px #6190E8 ;
     .p-head{
         margin-top: 3%;
     }
+    
 }
 
 @media screen and (min-width:769px)and  (max-width:1200px){

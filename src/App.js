@@ -9,7 +9,7 @@ import Aboutpage from './components/Aboutpage';
 import { ContactUs } from './components/Footer';
 import Skills from './components/Skills';
 import { useRef } from 'react';
-import resume from "./assets/R_Giri_Reddy_Resume.pdf"
+
 import Githubstats from './components/Githubstats';
 import Navbarto from './components/Navbarto';
 import Projectssec from './components/Projectssec';
@@ -37,8 +37,11 @@ function App() {
     
     <Homepage home={home} projects={projects}/>
     <Projectssec/>
+    
     <Skills skills={skills}/>
+    
     <Githubstats gitStats={gitStats} />
+    
     <ContactUs footer={footer}/>
    
     

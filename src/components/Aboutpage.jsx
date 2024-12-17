@@ -1,9 +1,9 @@
 import React from 'react'
 import "../css/About.css"
-import insta from "../Images/instagram.png"
-import facebook from "../Images/fb.png"
-import git from "../Images/github.png"
-import linkedin from "../Images/linkedin.png"
+import insta from "../Images/hacker.png"
+import facebook from "../Images/fb2.png"
+import git from "../Images/git2.png"
+import linkedin from "../Images/link2.png"
 import purple from "../Images/purpleblur.png"
 import giri from "../Images/giri.png"
 const Aboutpage = ({about}) => {
@@ -12,11 +12,12 @@ const Aboutpage = ({about}) => {
     
 <div className="a-left">
     <div className='a-name'>
-        <span>Hii! I Am,</span> <span>R Giri Reddy</span>  
+        <span style={{color:"white"}}>Hii! I Am,</span> <span>R Giri Reddy</span>  
         <span>Full Stack Web Developer,Capable of Producing Quality Web Work trained by Masai School, Bengaluru.Passionate in creating projects and systems which can result in both me and my organizations success.</span>
     </div> 
     <div className='a-img'>
-    <a target="_blank" href="https://instagram.com/rick_yenn"><img src={insta} alt="img" /></a> 
+    <a target="_blank" href="https://www.hackerrank.com/girireddyanna"><img src={insta} alt="img" /></a> 
+    
     <a target="_blank" href="https://fb.com/greystarktony"><img src={facebook} alt="img" /></a> 
     <a target="_blank" href="https://linkedin.com/in/giri-reddy-geralt"><img src={linkedin} alt="img" /></a> 
     <a target="_blank" href="https://github.com/geraltyen"><img src={git} alt="" /></a> 

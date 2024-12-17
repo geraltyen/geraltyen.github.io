@@ -1,7 +1,7 @@
 import React from 'react'
 import  "../css/navbar.css"
 import rglogo from "../assets/rglogo.jpg"
-import resume from "../assets/R_Giri_Reddy_Resume.pdf"
+
 import { GiHamburgerMenu } from "react-icons/gi"
 import { useRef } from 'react'
 import { Link } from 'react-router-dom'
@@ -29,7 +29,7 @@ const Navbar = ({scrolltosection,home, about, skills, projects, footer,gitStats}
      <li onClick={()=>scrolltosection(skills)}>Skills</li> 
      <li onClick={()=>scrolltosection(projects)}>Projects</li>
      <li onClick={()=>scrolltosection(gitStats)}>GitHub Stats</li>
-    <li><a target="_blank" href={resume} onClick={()=>{window.open("")}}  download >Resume</a></li>
+    <li><a target="_blank" href="" onClick={()=>{window.open("")}}  download >Resume</a></li>
      
      </ul>
     </div> 

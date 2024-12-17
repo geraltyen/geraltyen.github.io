@@ -1,7 +1,7 @@
 .newpr-main{
     width: 80%;
     
-    margin: 5% auto 10% auto;
+    margin: 8% auto 10% auto;
     
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -9,18 +9,26 @@
 }
 .newpr-child{
     border: 1px solid black;
-    border-radius: 100px 10px;
+    border-radius: 10px;
     color: black;
     padding: 1rem;
     background-color: aliceblue;
     box-shadow:0px 20px 24px 3px rgba(6, 251, 169, 0.635) ;
+    display: flex;             /* Use Flexbox */
+    flex-direction: column;    /* Arrange content vertically */
+    justify-content: space-between; /* Push content to fill space */
 }
 .p-img{
     width: 80%;
     margin: 1% auto;
-    border-radius: 20px 0;
+    border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 
+}
+.p-img:hover{
+    transition: all ease-in-out 1000ms;
+    width: 90%;
+    border: 1px solid black;
 }
 .des-p{
     margin: 0 0 2% 0;
@@ -31,14 +39,19 @@
     
 } 
 .t-st img{
-    width: 15%;
+    width: 8%;
     margin: 3% 0;
 
+}
+.des-p-type{
+    display: flex;
+    
+    
 }
 
 .des-h1{
     color:chocolate;
-
+    margin-bottom: 10px;
 }
 .des-title{
     color: darkslateblue;
@@ -47,6 +60,7 @@
 .pr-btn-btn{
   display: flex;
   gap: 2%;
+  margin-top: auto;
 
 }
 .btn-des{
@@ -66,21 +80,31 @@
 @media screen and (min-width: 320px)and (max-width:767px){
     .newpr-main{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(1,1fr);
+        margin-bottom: 400px;
     }
     .newpr-child{
         border-radius: 15px;
     }
     .newpr-child img{
        margin-bottom: 1rem;
-        border-radius: 10px;
+    
     } 
+    .p-img{
+        width: 90%;
+    }
+    .p-img:hover{
+        width: 95%;
+    }
     .des-p{
         
         font-size: 8px;
     }
     .des-h1{
        
+        font-size: 10px;
+    }
+    .des-h1 span{
         font-size: 10px;
     }
     .des-title{
@@ -98,6 +122,7 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
+
 .des-p{
     font-size: 15px;
 }
@@ -106,6 +131,9 @@
 }
 .des-title{
     font-size: 20px;
+}
+.p-img:hover{
+    width: 95%;
 }
 
 }

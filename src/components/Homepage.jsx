@@ -9,16 +9,18 @@ import cssimg from "../Images/cssimg.png"
 import reactimg from "../Images/reactimg.png"
 import reduximg from "../Images/reduximg.png"
 import next from "../Images/next.png"
+import mongo from "../Images/mongo.png"
 import jsimg from "../Images/jsimg.png"
 import pr1 from "../Images/pr1.png"
 import pr2 from "../Images/pr2.png"
 import pr3 from "../Images/pr3.png"
 import pr4 from "../Images/pr4.png"
 import pr5 from "../Images/nykaa.png"
+import avis from "../Images/pr5.png"
 import Slider from 'react-slick'
 const primg1=[htmlimg,cssimg,jsimg]
 const primg2=[reactimg,reduximg,next]
-const primg3=[]
+const primg3=[reactimg,reduximg,mongo]
 const primg4=[]
 
 const Homepage = ({home,projects}) => {
@@ -59,13 +61,13 @@ const second=()=>{
   setTech(primg1)
 }
 const third=()=>{
-  setImg(pr3)
-  setTxt("A simple Movie app Where we can Book Movies, I used omdb Api to Fetch movie data and display also we can add money to wallet and booking will cost you")
-  setLive("https://storied-naiad-809472.netlify.app/")
-  setCode("https://github.com/geraltyen/Simple-Movie-app")
-  setType("Individual")
-  setPname("Simple Movie booking App")
-  setTech(primg1)
+  setImg("https://user-images.githubusercontent.com/107506646/221434962-c51516ca-5281-4ef3-928e-31e7a2c88b84.png")
+  setTxt("Avis is India's leading mobility Company with services ranging from chauffeur drive and self-drive car rentals, car-Sales")
+  setLive("https://cruiserental.vercel.app/")
+  setCode("https://github.com/shikhu51197/Avis-Rentals")
+  setType("Collaborative")
+  setPname("Avis Rentals Clone")
+  setTech(primg3)
 }
 const fourth=()=>{
   setImg(pr5)
@@ -81,7 +83,9 @@ const fourth=()=>{
 
       
       <div className='h-projects' ref={projects}>
-        <h1 className='p-text'>Have a Look at My Projects</h1>
+        <h1 className='p-text'>Have a Look at <span className='headingspan'>My Projects</span> </h1>
+        <hr className='hrlin'/>
+        
         <div className='view-section'>
           <div className="l-view">
             <img src={img} alt="proj img" className='pr-img' />
@@ -130,7 +134,7 @@ const fourth=()=>{
         <img src={pr2} alt="i" onClick={()=>{second()}} />
         </div>
         <div>
-        <img src={pr3} alt="i" onClick={()=>{third()}}/>
+        <img src={avis} alt="i" onClick={()=>{third()}}/>
         </div>
         <div>
         <img src={pr5} alt="i" onClick={()=>{fourth()}}/>

@@ -9,7 +9,10 @@ const Githubstats = ({gitStats}) => {
     }
   return (
     <div className='g-main' ref={gitStats}>
-    <h1 className='g-text'>Github Streaks `N` Stats</h1>
+    <h1 className='p-text'>Github <span className='headingspan'>Streaks `N` Stats</span> </h1>
+    <hr className='hrlin'/>
+    <br />
+    
         <div className='g-cal'>
         <GitHubCalendar
         username="geraltyen"

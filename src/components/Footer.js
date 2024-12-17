@@ -26,7 +26,7 @@ export const ContactUs = ({ footer }) => {
   return (
 
     <div className='f-main ' ref={footer}>
-      <h1 className='f-h'>Contact Me </h1>
+      <h1 className='p-text' style={{color:"black"}}>Contact <span className='headingspan' style={{color:"darkgoldenrod"}}>Me</span>  </h1>
       <div className='f-subh'>
       <h1>Get in touch</h1>
       <h1>My details</h1>
@@ -43,7 +43,7 @@ export const ContactUs = ({ footer }) => {
             <input className='f-text' placeholder='Your Email' type="email" name="user_email" />
             <label>Message</label>
             <textarea className='f-text' placeholder='The Message You Wanna Send To Me' name="message" />
-            <input className='f-btn' type="submit" value="Send" />
+            <input className='f-btn' type="submit" value="Send" style={{padding:"10px 0"}}/>
           </form>
         </div>
 
@@ -64,8 +64,8 @@ export const ContactUs = ({ footer }) => {
           </div>
          
           <div>
-          <a href="#" className='f-rightchild'>
-          <div><img src={gmail} alt="" /></div>
+          <a href="mailto:girireddyanna@gmail.com" className='f-rightchild'>
+          <div><img src={gmail} alt="img" /></div>
           <div><span>girireddyanna@gmail.com</span></div>
           </a>
           </div>
